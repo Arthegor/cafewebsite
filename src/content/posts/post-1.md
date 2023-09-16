@@ -1,0 +1,38 @@
+---
+title: "La phase de régression post-diagnostic"
+description: "meta description"
+date: 2023-09-15T18:30:00Z
+image: "/images/posts/01.jpg"
+categories: ["Diagnostic"]
+tags: ["diagnostic"]
+draft: false
+---
+
+Recevoir le diagnostic TSA de son enfant est toujours un cataclysme pour une maman, quelles que soient les conditions et les circonstances. Je suis Emma*, maman de Jules*, 12 ans. Le diagnostic de mon fils m’a amenée à me faire diagnostiquer moi aussi par la suite. Comme mon fils, je suis TSA et TDAH. Face à ce bouleversement dans nos vies, j’ai fait une phase de régression, qui me semblait essentielle d’aborder. 
+
+#### Phase 1 
+## L’annonce des diagnostics 
+
+Il y a 4 ans, mon fils a été diagnostiqué TSA de haut niveau (anciennement appelé autisme asperger) et TDAH. L’annonce du diagnostic a été un réel cataclysme pour lui et pour moi. Ma première réaction a été la peur pour son avenir. Je me demandais comment il pourrait avoir une vie “normale”. J’ai aussi eu beaucoup de culpabilité. Celle de ne pas avoir réussi à le faire diagnostiquer plus tôt car pendant 5 ans j’ai lutté pour essayer de trouver le professionnel adapté pour mon fils. 
+D’une autre manière, l’annonce du diagnostic a aussi été un soulagement. Je mettais enfin des mots sur sa souffrance et sur sa différence. Or, à ce moment-là je ne réalise pas que cela ne fait que commencer. Je me sens très isolée face à l’handicap de mon fils et malgré le diagnostic, je ne me sens pas toujours comprise et entendue par les professionnels et par mon entourage. Je prends conscience que l’autisme est très mal connu. J’éprouve des difficultés à trouver des professionnels adaptés aux particularités de mon fils.
+
+En parallèle de tout cela, je réalise que certaines des difficultés de mon fils résonnent en moi comme un miroir. Je décide alors de me faire diagnostiquer à mon tour. Et donc coup sur coup, je prends deux diagnostics dans la tête. Je suis moi aussi porteuse d’autisme de haut niveau et d’un TDAH très prononcé ce qui réduit mes capacités cognitives attentionnelles ce dont je n’avais pas pleinement conscience à ce moment-là. 
+
+##### Phase 2 
+## Les cataclysmes : la phase de régression 
+
+Suite à l’annonce et à la prise de conscience de tout cela, je rentre dans une phase de régression sans vraiment le savoir. Je suis alors mise en arrêt maladie. Je n’arrivais plus à rien faire et même les choses les plus simples du quotidien me semblaient impossibles à réaliser comme le simple fait de s’habiller, de faire à manger ou de faire des machines à laver. Il était aussi impossible pour moi de prendre la voiture pour aller travailler. J’avais une peur panique de sortir de chez moi et ne voulais parler à personne. Tout devient source d’extrême fatigue. J’avais l’impression que mon cerveau était épuisé et marchait au ralenti. J’avais l’esprit qui comprenait tout mais c’est comme si mon corps ne pouvait pas suivre et que mon cerveau ne fonctionnait plus normalement. Ce n’était pas parce que je n’en avais pas envie, j’étais tout simplement dans l’incapacité de le faire. Je n’arrivais pas à comprendre mon état. Je me sentais coincée et emprisonnée. De plus, je perdais mes facultés intellectuelles ce qui a ajouté à mon effondrement. Je me suis sentie complètement démunie face à tout cela. J’avais la sensation d’être autiste très typique et que l’handicap invisible était de plus en plus visible.  Simultanément, il fallait que je mette en place les accompagnements de mon fils, ce qui a été très compliqué avec tout ce que j’avais à gérer sachant que je vis seule avec lui. 
+
+Par ailleurs, dans les démarches me concernant, j’ai réalisé un bilan neuro avec une neuropsychologue avec laquelle j’ai pu entamer un travail psychothérapeutique. Au début, j’y suis allée sans attentes particulières. Ayant un parcours cabossé, un passé difficile, et surtout aucun des professionnels rencontrés jusqu'alors n’avaient pu me comprendre. Je me suis retrouvée face à une écoute exceptionnelle, une personne qui ne m’a pas jugée, qui m’a écoutée et comprise. Lors de la restitution du bilan neuro, je découvre, à ma grande surprise que j’ai un très bon potentiel intellectuel avec notamment, l’existence de hautes capacités de raisonnement ce qui a pu probablement me permettre de compenser les difficultés ressenties pendant l’enfance comme la dysgraphie, la dyslexie, la dyspraxie et ma compréhension du langage écrit (passées totalement inaperçues pour les autres). Ce travail se poursuit encore aujourd’hui et me permet de comprendre mes fonctionnements et m’apportent des clés afin que le monde qui m’entoure me soit moins étranger. C’est une manière pour moi de compenser le manque d’accompagnement que j’ai n’ai pas eu étant enfant et qui me sont préjudiciables dans la façon que j’aie de m’exprimer. Alors voilà pourquoi il est important de faire accompagner les enfants le plus tôt possible afin qu’il n’ait pas de manquement à l’âge adulte et pour qu’ils ne se retrouvent pas dans ces situations car les difficultés à gérer ont moins de conséquence à l’âge adulte. En effet, savoir à qui s’adresser n’est pas facile pour moi et on ne peut pas tout dire à tout le monde. Cela m’a amenée à sortir de certaines relations toxiques qui ont rythmé pas mal ma vie, ce qui n’est plus le cas aujourd’hui. Il y a aussi une manière de dire les choses et j’ai tendance à être trop directe. Ce travail avec ma neuropsychologue m’aide à expliquer mes fatigues ainsi qu’à comprendre mon TDAH et mon TSA. J’ai des réponses à comment je fonctionne et pourquoi il y a des choses que je n’ai jamais supportées. 
+
+Je me suis rendue compte, à travers ce travail, que je m’étais sur adaptée sans m’en rendre compte depuis toujours. Je rencontrais  également des difficultés relationnelles auxquelles je n’en comprenais pas les causes. J’avais aussi aucune confiance en moi et comme ma scolarité a été catastrophique je n’avais aucune estime pour moi-même et aucune conscience en mes capacités. 
+
+
+
+#### Phase 3 
+## Conclusion
+
+Aujourd’hui je me sens mieux et plus en accord avec moi-même. Être bien accompagné est capital. J’ai trouvé des professionnels qui me correspondent. Ce n’est pas toujours facile mais je réalise que c’est possible et qu’il faut accepter de ne pas pouvoir tout gérer. La phase de régression arrive souvent peu de temps après l’annonce du diagnostic à partir du moment où on réalise et où on accepte ce qu’on prend dans la tête. Je me retrouve de nouveau aujourd’hui dans une situation difficile qui me pousse à me recentrer sur moi-même pour mieux repartir et ne plus m'arrêter. Avec le temps et des accompagnements spécialisés efficaces, j’ai pu comprendre et accepter mes particularités : mon hypersensibilité, mon hyperacousie, mes aversions alimentaires, ma forte intolérance à la lumière etc. J’ai donc pu mettre en place des aménagements tels que des bouchons d’oreille ou des lunettes colorées. 
+Enfin, l’autisme est considéré comme un handicap invisible mais qui ne se ressent pas si invisible pour les personnes concernées. On a l’impression de ne pas rentrer dans les cases car c’est très difficile de se trouver soi-même car chaque autisme est différent donc on peut se reconnaître dans certains fonctionnements autistiques mais on peut être très différents en même temps. On peut avoir des phases où on est très typique et il ne faut pas avoir peur de cela. Il faut l'accepter car on a trop sur adapté pendant des années. 
+
+Témoignage d'une adhérente  qui nous livre son expérience  personnelle.

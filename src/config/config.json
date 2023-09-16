@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Café autisme",
+    "base_url": "https://cafeautisme.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "300",
+    "logo_height": "100",
+    "logo_text": "Café Autisme"
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Café autisme"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2023 Café Autisme - Prototype Rev .01 - NON APPROUVÉ POUR PRODUCTION"
+  },
+
+  "contactinfo": {
+    "address": "Toulouse, France",
+    "email": "cafe.autisme@gmail.com",
+    "phone": "06 51 26 12 31"
+  }
+}

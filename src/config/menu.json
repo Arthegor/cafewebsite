@@ -1,0 +1,48 @@
+{
+  "main": [
+    {
+      "name": "Détecter l'Autisme",
+      "url": "/detection"
+    },
+    {
+      "name": "Blog-Journal",
+      "url": "/blog"
+    },
+    {
+      "name": "Nous contacter",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "RDV Téléphonique",
+          "url": "/contact"
+        },
+        {
+          "name": "Partenariat Amical",
+          "url": "/partenariat"
+        }
+      ]
+    },
+    {
+      "name": "L'association",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Notre programme",
+          "url": "/programme"
+        },
+        {
+          "name": "Nous soutenir",
+          "url": "/soutien"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "Vie Privée",
+      "url": "/privacy-policy"
+    }
+  ]
+}
