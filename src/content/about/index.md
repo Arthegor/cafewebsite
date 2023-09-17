@@ -1,5 +1,5 @@
 ---
-title: "I’m John Doe, A content writer based in LDN, Currently at Bookworm"
+title: "Ceci est le site web du café autisme"
 meta_title: "About"
 image: "/images/author.png"
 draft: false
@@ -17,5 +17,3 @@ what_i_do:
     description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
 
 ---
-
-Ceci est le site web du café autisme

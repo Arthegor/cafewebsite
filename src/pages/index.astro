@@ -1,5 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
+import Pagination from "@layouts/components/Pagination.astro";
+import Posts from "@layouts/Posts.astro";
 import { markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 const entry = await getEntryBySlug("pages", "master");
@@ -16,5 +18,53 @@ const { Content } = await entry.render();
         </div>
       </div>
     </div>
-  </section>
+    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <!--Card 1-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="/public/images/home/autism.png" alt="autism">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Handicap</div>
+          <p class="text-gray-700 text-base">
+            Des familles, des enfants, pour qui la différence et le handicap sont leur quotidien.
+
+Nous donnons un espace ou chacun peut venir avec sa différence et celle-ci sera acceptée et appréciée. TSA / TDAH / TDA / DYS / Anomalie Chromosomique ...
+
+​
+
+Rejoignez-nous et Soyez vous-même!
+          </p>
+        </div>
+      </div>
+      <!--Card 2-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="/public/images/home/soutien.png" alt="soutien">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Soutien et Répit</div>
+          <p class="text-gray-700 text-base">
+            Une ECOUTE attentive!
+
+Nous vous apporterons tout notre soutien et notre aide. 
+
+Des SOLUTIONS pour avoir du répit (garde d'enfant, accompagnement aux suivis...) grâce à notre réseaux d'associations spécialisées dans ce type d'accompagnement. 
+          </p>
+        </div>
+      </div>
+  
+      <!--Card 3-->
+      <div class="rounded overflow-hidden shadow-lg">
+        <img class="w-full" src="/public/images/home/cafe.png" alt="Forest">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Café Autisme</div>
+          <p class="text-gray-700 text-base">
+            Un groupe de parole chaque mardi à partir de 18h30 Pour les adultes TSA et les jeudis de 9h00 à 11h00 pour les mamans, papas, proches d'enfants porteurs de handicap mais aussi pour les professionnels et même les adultes porteurs de handicap sont les bienvenus. Chacun est libre de venir le jour qui lui convient. 
+
+​
+
+Des Café Autisme sont ouverts également spécialement pour les adultes TSA - TDAH. Des parents souvent diagnostiqués sur le tard, suite au diagnostique de leur enfant. Des cafés ados s'organisent tous les mercredis a 18h ce groupe TSA'do existe pour que nos ados se sentent moins seuls et accompagne.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </Base>
