@@ -1,0 +1,22 @@
+---
+title: "Notre Programme"
+title2: "Contact"
+draft: false
+---
+
+Chaque mois, vous pourrez retrouver notre programme ici !
+
+Il y en a pour les enfants et les parents, n'hésitez pas à nous contacter pour vous inscrire.
+ 
+Nous proposons aussi des ateliers pendant les vacances scolaires pour les enfants et nous organisons des interventions de professionnels spécialisés afin d'en apprendre plus sur l'autisme et sur ce que cela regroupe. 
+​
+Pour vous inscrire à un atelier ou à tout autre évènement proposé par l'association, merci de prendre contact avec nous. 
+​
+Nous pouvons accueillir un nombre limité de participants à nos ateliers et au différents cafés autisme du mardi et du jeudi. 
+ 
+<h4>Pour y participer :</h4>
+
+1. Inscrivez vous par email ou par téléphone (prise de rdv ici )
+2. Vous avez droit à 2 réunions d'essai. Si vous souhaitez continuer au delà de ces 2 réunions, nous vous demandons de devenir adhérent.
+ 
+Les absences: A partir de deux absences sans nous prévenir, il n'y aura plus de possibilités de s'inscrire à nos réunions. Nous tenons aux valeurs de respect et de bienveillance. Merci de votre compréhension.

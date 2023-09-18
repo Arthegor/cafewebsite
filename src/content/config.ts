@@ -40,6 +40,7 @@ const pagesCollection = defineCollection({
   schema: z.object({
     id: z.string().optional(),
     title: z.string(),
+    title2: z.string().optional(),
     meta_title: z.string().optional(),
     description: z.string().optional(),
     image: z.string().optional(),

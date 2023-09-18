@@ -6,19 +6,15 @@ import { markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 const entry = await getEntryBySlug("pages", "master");
 const { Content } = await entry.render();
+const { title } = entry.data;
 ---
 
-<Base title={entry.data.title}>
+<Base>
   <section class="section">
-    <div class="flex flex-wrap justify-center">
-      <div class="w-6/12 sm:w-4/12 px-4">
-        <img src="/public/images/home/home.png" alt="home" class="shadow-lg rounded max-w-full h-auto align-middle border-none" />
-      </div>
-    </div>
     <div class="container">
       <div class="flex h-[40vh] items-center justify-center">
         <div class="text-center">
-          <h1 class="mb-4" set:html={markdownify(entry.data.title)} />
+          <h1 set:html={markdownify(title)} class="h2 page-heading" />
           <Content />
         </div>
       </div>
