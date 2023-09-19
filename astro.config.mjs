@@ -9,7 +9,6 @@ import config from "./src/config/config.json";
 // https://astro.build/config
 export default defineConfig({
   site: 'https:/arthegor.github.io',
-  base: '/cafewebsite',
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   integrations: [
     react(),
