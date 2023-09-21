@@ -4,10 +4,13 @@ import { markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 const entry = await getEntryBySlug("pages", "programme");
 const entry2 = await getEntryBySlug("pages", "agenda");
+const entry3 = await getEntryBySlug("pages", "lescafe");
 const { Content } = await entry.render();
 const { title } = entry.data;
 const { title: title2 } = entry2.data;
 const { Content: Content2 } = await entry2.render();
+const { title: title3 } = entry3.data;
+const { Content: Content3 } = await entry3.render();
 ---
 
 <Base>
@@ -23,5 +26,11 @@ const { Content: Content2 } = await entry2.render();
       <Content2 />
     </div>
  </section>
+ <section class="section">
+  <div class="container">
+    <h1 set:html={markdownify(title3)} class="h2 page-heading" />
+    <Content3 />
+  </div>
+</section>
 </Base>
     

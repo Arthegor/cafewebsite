@@ -41,6 +41,7 @@ const pagesCollection = defineCollection({
     id: z.string().optional(),
     title: z.string(),
     title2: z.string().optional(),
+    title3: z.string().optional(),
     meta_title: z.string().optional(),
     description: z.string().optional(),
     image: z.string().optional(),
