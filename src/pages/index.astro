@@ -12,12 +12,8 @@ const { title } = entry.data;
 <Base>
   <section class="section">
     <div class="container">
-      <div class="flex h-[40vh] items-center justify-center">
-        <div class="text-center">
-          <h1 set:html={markdownify(title)} class="h2 page-heading" />
-          <Content />
-        </div>
-      </div>
+      <h1 set:html={markdownify(title)} class="h2 page-heading" />
+      <Content />
     </div>
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
       <!--Card 1-->
