@@ -12,6 +12,8 @@ const { title } = entry.data;
          <h1 set:html={markdownify(title)} class="h2 page-heading" />
          <Content />
        </div>
+	</section>
+	<section x-data="xData()" class="bg-gray-100 dark:bg-gray-900 py-10 px-12">
        <div class="grid-cols-1 sm:grid md:grid-cols-2 ">
          <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
            <div class="p-6">
