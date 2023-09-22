@@ -1,5 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
+import Pagination from "@layouts/components/Pagination.astro";
+import Posts from "@layouts/Posts.astro";
 import { markdownify } from "@lib/utils/textConverter";
 import { getEntryBySlug } from "astro:content";
 const entry = await getEntryBySlug("pages", "detection");
@@ -7,40 +9,37 @@ const { Content } = await entry.render();
 const { title } = entry.data;
 ---
 <Base>
-    <section class="section">
-       <div class="container">
-         <h1 set:html={markdownify(title)} class="h2 page-heading" />
-         <Content />
-       </div>
-	</section>
-	<section x-data="xData()" class="bg-gray-100 dark:bg-gray-900 py-10 px-12">
-       <div class="grid-cols-1 sm:grid md:grid-cols-2 ">
-         <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
-           <div class="p-6">
-             <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Troubles des interactions sociales</h5>
-             <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Défaut de contact visuel Ne répond pas à son prénom Impression d'indifférence au monde extérieur Peu de réaction à la séparation Absence ou faible attention conjointe Attention difficile à capter  Absence de faire semblant ; imitation. Jeux pauvres et souvent répétitifs</p>
-            </div>
-          </div>
-        <div>
-          <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
-            <div class="p-6">
-              <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Troubles de communication verbale et non verbale</h5>
-              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Absence ou retard de langage. Absence d'anticipation dans la communication gestuelle. Langage dont l'objet n'est pas communiquer ou d'échanger ; monologue ; monopolisation de la conversation Tendance de l'enfant à répéter ce qu'on lui dit : Echolalie. Facon de parler; exemple: voix atone, arythmique, ton monocorde. Inversion pronominale: exemple: utiliser le "Tu" à la place du "Je"
-              </p>
-            </div>
-          </div>
-          <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
-            <div class="p-6">
-              <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Comportements répétitifs et restreints</h5>
-              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Préoccupation persistante pour certaines parties d'objets. Exemple: fait tourner la roue d'une petite voiture. Attachement inhabituel à des objets. l'enfant peut avoir une réaction disproportionnée. Insistance à poursuivre les actes routiniers dans le détail. Ex: Emprunte le même trajet pour aller dans un endroit. Routine pousse à l'extreme toutes actions faites dans le même ordre. Si ce n'est pas possible, peut engendrer une crise ( tristesse, colère, mutisme). Inconsolable face au changement même minime dans l'environnement. Ex: changement de la place des meubles ou des objets de décoration, des nouveaux vêtements ... Main outil: l'enfant utilise la main de l'autre pour attraper des choses.</p>
-           </div>
-         </div>
-         <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
-           <div class="p-6">
-              <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Autres manifestations troubles psychomoteurs</h5>
-              <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Anomalies ou retards moteur. Trouble de la motricité, anomalie du tonus, défaut d'ajustement, bébé mou, raide. Hypo ou hypertonie. Trouble du sommeil. Pleurs très fréquents sans raisons apparentes. Troubles de l'alimentation</p>
-           </div>
-         </div>
-       </div>
-    </section> 
+  <section class="section">
+    <div class="container">
+      <h1 set:html={markdownify(title)} class="h2 page-heading" />
+      <Content />
+    </div>
+    <div class="grid-cols-1 sm:grid md:grid-cols-2 ">
+      <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+        <div class="p-6">
+          <div class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Troubles des interactions sociales</div>
+          <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Défaut de contact visuel Ne répond pas à son prénom Impression d'indifférence au monde extérieur Peu de réaction à la séparation Absence ou faible attention conjointe Attention difficile à capter  Absence de faire semblant ; imitation. Jeux pauvres et souvent répétitifs</p>
+        </div>
+      </div>
+      <div>
+        <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+          <div class="p-6">
+            <div class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Troubles de communication verbale et non verbale</div>
+            <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Absence ou retard de langage. Absence d'anticipation dans la communication gestuelle. Langage dont l'objet n'est pas communiquer ou d'échanger ; monologue ; monopolisation de la conversation Tendance de l'enfant à répéter ce qu'on lui dit : Echolalie. Facon de parler; exemple: voix atone, arythmique, ton monocorde. Inversion pronominale: exemple: utiliser le "Tu" à la place du "Je"</p>
+        </div>
+      </div>
+      <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+        <div class="p-6">
+          <div class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Comportements répétitifs et restreints</div>
+          <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Préoccupation persistante pour certaines parties d'objets. Exemple: fait tourner la roue d'une petite voiture. Attachement inhabituel à des objets. l'enfant peut avoir une réaction disproportionnée. Insistance à poursuivre les actes routiniers dans le détail. Ex: Emprunte le même trajet pour aller dans un endroit. Routine pousse à l'extreme toutes actions faites dans le même ordre. Si ce n'est pas possible, peut engendrer une crise ( tristesse, colère, mutisme). Inconsolable face au changement même minime dans l'environnement. Ex: changement de la place des meubles ou des objets de décoration, des nouveaux vêtements ... Main outil: l'enfant utilise la main de l'autre pour attraper des choses.</p>
+        </div>
+      </div>
+      <div class="mx-3 mt-6 flex flex-col self-start rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+        <div class="p-6">
+          <div class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">Autres manifestations troubles psychomoteurs</div>
+          <p class="mb-4 text-base text-neutral-600 dark:text-neutral-200">Anomalies ou retards moteur. Trouble de la motricité, anomalie du tonus, défaut d'ajustement, bébé mou, raide. Hypo ou hypertonie. Trouble du sommeil. Pleurs très fréquents sans raisons apparentes. Troubles de l'alimentation</p>
+        </div>
+      </div>
+    </div>
+  </section> 
 </Base>
